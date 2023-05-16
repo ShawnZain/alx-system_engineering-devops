@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATH | tr ":" "\n" | wc -l  # first print the directories in $PATH. As the deliminater is ":" we can translate this and replace it with a "\n" new line character so that. This will make it so that every directory is on its own line. then we count the number of lines to get the number of directories. Yureka!!
